@@ -23,6 +23,29 @@ input[type="text"], input[type="password"] {
     border: 1px solid #ccc;
 }
 
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .container {
+        max-width: 200px;
+        margin: 20px auto;
+    }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+    .container {
+        max-width: 150px;
+        margin: 10px auto;
+    }
+}
+
+
+
+
+
+
+
+
 button[type="button"] {
     width: 100%;
     padding: 10px;
